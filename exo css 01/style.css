@@ -1,0 +1,134 @@
+html{
+    background-color: bisque;
+}
+
+#main-title::first-letter{
+    color: #FF0000;
+}
+
+#main-title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#title{
+    text-decoration: underline;
+}
+
+.text::first-letter{
+    font-size: 2em;
+    color: #FF0000;
+}
+
+.space01{
+    margin: 1.5em;
+    font-size: 1.5em;
+    text-decoration: wavy underline #FF0000;
+}
+
+.text-input{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.align{
+    text-align: center;
+}
+
+.rectangle01{
+    height: 50px;
+    width: 50%;
+    background-color: #FF0000;
+}
+
+.rectangle02{
+    height: 50px;
+    width: 75%;
+    background-color: #0000FF;
+}
+
+.rectangle03{
+    height: 50px;
+    width: 10%;
+    background-color: #00FF00;
+}
+
+.rectangle04{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.rectangle05{
+    height: 50px;
+    width: calc(102% - 10px);
+    background-color: #A40E2D;
+    margin: 10px 5px 0px 5px;
+    border-top-right-radius: 40%;
+    margin-left: -20px;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+}
+
+.inline{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.b-radius{
+    border-radius: 5px;
+}
+
+.b-circle{
+    border-radius: 50%;
+}
+
+.circle-relative{
+    position: relative;
+    bottom: 10px;
+    left: calc(50% - 25px);
+}
+
+#emailInput{
+    display: block;
+    margin: 0 auto;
+}
+
+#passwordInput{
+    display: block;
+    margin: 0 auto;
+}
+
+#submitInput{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#image01{
+    position: relative;
+    left: calc(100% - 300px);
+}
+
+#image02{
+    position: relative;
+    width: 20%;
+    left: 40%;
+}
+
+.margin-title{
+    margin-top: 4em;
+}
+
+.margin-div{
+    margin-top: 10px;
+}
+
+.margin{
+    margin-top: 10px;
+}

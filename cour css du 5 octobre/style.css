@@ -1,0 +1,100 @@
+.space01{
+    margin: 0px 10px;           /*top, left, right, bottom = sert à sélectionner un côté particulier pour margin, padding, border*/
+    color: #FF0000;
+}
+
+.space02{
+    border: 2px solid #000000;
+    padding: 3px;
+}
+
+.space03{
+    margin: 2em;
+}
+
+.space04{
+    text-indent: 3em;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+}
+
+.rectangle{
+    height: 50px;
+    width: 10%;
+    background-color: #0000FF;
+}
+
+.div-mother-width{
+    width: 50%;
+    border: 1px solid #000000;
+}
+
+.rectangle-viewport{
+    height: 50px;
+    width: 50vw;
+    background-color: #FF8800;
+}
+
+.b-radius{
+    border-radius: 25%;
+}
+
+.b-circle{
+    border-radius: 50%;
+}
+
+.square-abs{
+    position: absolute;
+    top: 1450px;
+    right: calc(50% - 25px);
+}
+
+.mother-relative{
+    height: 200px;
+    border: 1px solid #000000;
+}
+
+.circle-relative{
+    position: relative;
+    bottom: 10px;
+    left: calc(50% - 25px);
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    height: 75px;
+    background-color: #00FFFF;
+}
+
+.deep{
+    z-index: -1;
+}
+
+.transform-square-translation{
+    transform: translate(10px);
+}
+
+.transform-square-rotation{
+    transform: rotate(45deg);
+}
+
+.margin-div{
+    margin-top: 10px;
+}
+
+.color-red{
+    color: #FF0000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+p{
+    line-height: 30px;
+}

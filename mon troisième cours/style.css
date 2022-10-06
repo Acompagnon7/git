@@ -1,0 +1,46 @@
+*{
+    font-weight: bold;
+    font-family: fantasy;
+}
+h2, h3, h4{
+    font-weight: normal;
+}
+ul > li{
+    color: red;
+    background-color: blue;
+}
+
+div + p{
+    color: red;
+}
+
+div p{
+    color: #f79862;
+}
+
+.lien{
+    color: red;
+    text-decoration: none;
+  }
+
+  input:checked + label{
+    background-color: cyan;
+    color: #f79862;
+  }
+
+  h1:first-letter, h2:first-letter, h3:first-letter{
+    color:#c39797
+  }
+
+  input :checked + label{
+    background-color: cyan;
+    color: #f79862;
+  }
+
+  #papa :last-child{
+    color: darkseagreen;
+  }
+  
+  #maman :nth-child(2){
+    color: aqua;
+  }
