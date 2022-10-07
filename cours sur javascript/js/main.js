@@ -207,3 +207,81 @@ function letTest() {
   
   let banane = "une banane";
   console.log(banane [5]);
+
+  //Les objets
+  var voiture = {
+    marque: "Renault",
+    annee: "2005",
+    puissance: 125,
+    afficher: function() {
+        console.log("cette voiture est une" + " " + this.marque + " " + "de l'année" +" "+ this.annee, ", elle a" +" "+ this.puissance +" "+ "chevaux.")
+    },
+  }
+
+  voiture.afficher()
+  console.log(voiture.marque);
+
+  //Les boucles 
+  var iteration = 2;
+  while(iteration < 7){
+    iteration ++;
+    console.log(iteration);
+  }
+
+  //for loop
+  for(let a =0; a <= 12; a++){
+   console.log(a);
+  }
+
+  for(let j = 0; j < mySecondArray.length; j++){
+    console.log(mySecondArray[j]);
+  }
+
+  let iterationBreak = 0
+
+  while(iterationBreak < 80){
+    console.log(iterationBreak);
+    iterationBreak++;
+    if( iterationBreak > 47){
+        break;
+  }
+};
+
+//exercice factorielle
+
+function fact(nbr){
+    var i, nbr, f = 1;
+    for(i = 1; i <= nbr; i++)  
+    {
+      f = f * i;   // ou f *= i;
+    }  
+    return f;
+  }
+  console.log(fact(2));
+
+  function factor(nbr){
+    if(nbr === 0){
+        return 1;
+    }
+    else{
+        console.log("Veuillez mettre un chiffre dans la fonction.")
+    }
+    return nbr * factor(nbr - 1);
+  }
+  console.log(factor(2))
+
+  //exercice js
+
+  var tab01 = ['Jeannette', 'Alphonse', 'George', 'Ludwig'];
+  var tab02 = ['Paul', 'Frédéric', 'Jacques', 'Roger'];
+
+  function tableau(arrayA, arrayB){
+    if(arrayA.length === arrayB.length){
+        for(let index = 0; index < arrayB.length; index++){
+            console.log(arrayA[index] + ' ' + arrayB[index])
+        }
+    }else{
+        console.log("Les tableaux n'ont pas la même taille")
+    }
+  }
+  tableau(tab01, tab02)

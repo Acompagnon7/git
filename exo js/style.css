@@ -1,0 +1,45 @@
+h1{
+    text-decoration: overline 3px;
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    margin-right: 40vw;
+}
+
+nav{
+    height: 100px;
+    background-color: crimson;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.div-article{
+    border: 1px solid black;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-article :nth-child(4){
+    color: blue;
+}
+
+.div-second-article{
+    border: 1px dashed red;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-second-article :nth-child(5){
+    color: red;
+}
+
+#liste{
+    list-style: none;
+}
+
