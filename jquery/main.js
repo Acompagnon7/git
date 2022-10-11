@@ -33,9 +33,9 @@ $(document).ready(function(){
     }
 
     for ( let index = 0; index < stagiaire.length; index++)
-{
+    {
 	$("#liste").append("<li>" + stagiaire[index] + "</li>")
-}
+    }
 })//})
 
 //parseInt($('#nbr').val())
