@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    text-shadow: 2px 1px 3px red;
+    font-style: oblique;
+    font-weight: bolder;
+    color: darkturquoise;
+    text-align: center;
+    
+}
+
+h2{
+    text-shadow: 2px 1px 3px brown;
+    color: coral;
+    text-align: center;
+}
