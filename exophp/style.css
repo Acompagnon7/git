@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+.center{
+    display: block;
+}
+
+.table{
+    border: solid 2px purple;
+    background-color: lime;
+    width: 100%;
+}
+
+thead{
+    background-color: blue;
+    height: 50px;
+    color: crimson;
+}
+
+tbody{
+    color: gold;
+    background-color: purple;
+    
+}
